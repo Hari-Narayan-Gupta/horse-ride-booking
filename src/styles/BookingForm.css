@@ -1,0 +1,96 @@
+/* src/styles/BookingForm.css */
+/* .booking-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+} */
+
+
+
+/* src/styles/BookingForm.css */
+
+.booking-form-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: block;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Adjust width to accommodate padding */
+}
+
+input[type="date"], input[type="time"] {
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6e7e7;
+}
+
+/* Optional: Styles for form responsiveness */
+@media (max-width: 480px) {
+    .booking-form {
+        padding: 15px;
+    }
+    
+    input, select {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
