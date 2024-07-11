@@ -1,11 +1,5 @@
 /* src/styles/HorseCard.css */
 .horse-card {
-    /* border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    cursor: pointer; */
-
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -16,9 +10,10 @@
     margin: 10px;
     cursor: pointer;
     background-color: #fff;
+    max-width: 200px;
 }
 
-.horse-card:hover{
+.horse-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -27,4 +22,12 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
+
+.horse-card h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
