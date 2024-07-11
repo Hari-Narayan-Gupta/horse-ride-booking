@@ -1,26 +1,21 @@
 /* src/styles/LandingPage.css */
-.landing-page {
+ .landing-page {
     text-align: center;
+    background: linear-gradient(135deg, #c0d6ec, #dfe2e6);
     padding: 20px;
+    height: 100vh;
 }
 
 .horses {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
-/* button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-} */
-
-
-/* CSS */
-.button {
+ .button {
   background-color: #FFFFFF;
   border: 1px solid rgb(209,213,219);
   border-radius: .5rem;
@@ -42,9 +37,7 @@
 }
 
 .button:hover {
-  /* background-color: rgb(249,250,251); */
-  background-color: #cfd2d8;
-  
+  background-color: #cfd2d8; 
 }
 
 .button:focus {
@@ -54,4 +47,17 @@
 
 .button:focus-visible {
   box-shadow: none;
+} 
+
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+@media (max-width: 725px){
+  .landing-page{
+    height: 100%;
+  }
 }
