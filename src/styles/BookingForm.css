@@ -1,33 +1,7 @@
 /* src/styles/BookingForm.css */
-/* .booking-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-label {
-    margin-bottom: 10px;
-}
-
-input, select {
-    padding: 10px;
-    margin-top: 5px;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-} */
-
-
-
-/* src/styles/BookingForm.css */
 
 .booking-form-container {
     text-align: center;
-    margin-top: 20px;
 }
 
 .booking-form {
@@ -41,9 +15,13 @@ button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+h2{
+    margin: 0;
+    padding: 20px;
+}
+
 .booking-form h2 {
     font-size: 24px;
-    margin-bottom: 20px;
 }
 
 label {
@@ -58,7 +36,7 @@ input, select {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: calc(100% - 22px); /* Adjust width to accommodate padding */
+    width: calc(100% - 22px); 
 }
 
 input[type="date"], input[type="time"] {
@@ -77,7 +55,6 @@ button:hover {
     background-color: #e6e7e7;
 }
 
-/* Optional: Styles for form responsiveness */
 @media (max-width: 480px) {
     .booking-form {
         padding: 15px;
